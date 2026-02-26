@@ -1,57 +1,91 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>olcrossley</title> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Otis L. Crossley — hobby developer & sound engineer based in Itzehoe.">
+  <title>Otis L. Crossley</title>
+  <link rel="icon" type="image/x-icon" href="img/favico.ico">
   <link rel="stylesheet" href="style/style.css">
-  <link rel="icon" type="image/x-icon" href="/img/favico.ico">
 </head>
 <body>
 
-<h1 id="otis-l-crossley">Otis L. Crossley</h1>
+<!-- Ambient glow blobs -->
+<div class="ambient ambient-a"></div>
+<div class="ambient ambient-b"></div>
 
-<h2 id="about-myself">About myself</h2>
-<!--
-<p>
-Work: I am currently working in the Technical Department at
-<a href="http://it.olcrossley.uk/">olcrossley</a>.
-</p>
--->
-<p>
-Interests:
-Software & Systems Engineering, programming and scripting,
-sound engineering.
-</p>
+<!-- Custom cursor -->
+<div id="cursor"></div>
 
-<h2 id="references">References</h2>
-<ul>
-  <li>
-    <a class="standalone-a" href="references/software-systems-engineering.html">
-      Software & Systems Engineering
-    </a>
-  </li>
-  <li>
-    <a class="standalone-a" href="references/sound-engineering.html">
-      Sound Engineering
-    </a>
-  </li>
-</ul>
+<!-- Navigation -->
+<nav>
+  <a class="nav-logo" href="index.html">olcrossley<span>.uk</span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="references/software-systems-engineering.html">Software</a></li>
+    <li><a href="references/sound-engineering.html">Sound</a></li>
+  </ul>
+</nav>
 
-<h2 id="openpgp-key">OpenPGP Key</h2>
-<p>
-<a class="standalone-a" href="otis-crossley.asc">My public key</a>
-</p>
-<p>
-Fingerprint: 6128 E053 45C1 D8A5 11D2  023D 4EA6 22C1 BF41 B7AE
-</p>
+<!-- Main content -->
+<main>
+  <div class="container home-enter">
 
-<h2 id="contact">Contact Me</h2>
-<p>
-You can contact me via Mail:
-<a href="mailto:contact@olcrossley.uk">contact@olcrossley.uk</a>
-</p>
+    <div class="status-pill">
+      <span class="status-dot"></span>
+      Open to collaboration
+    </div>
+    <h1 class="hero-name">
+      <span class="dim">Otis L.</span><br>
+      Crossley
+    </h1>
 
+
+    <p class="page-lead">
+      Hobby developer &amp; sound engineer.<br>
+      Interested in software systems, infrastructure, automation, and live audio.
+    </p>
+
+    <!-- Reference cards -->
+    <div class="ref-cards">
+      <a class="ref-card" href="references/software-systems-engineering.html">
+        <span class="ref-card-icon">⌨</span>
+        <div class="ref-card-title">Software &amp; Systems</div>
+        <div class="ref-card-desc">PHP, Java, Kotlin, Python, Bash — Docker, Proxmox, self-hosted infrastructure</div>
+        <span class="ref-card-arrow">↗</span>
+      </a>
+      <a class="ref-card" href="references/sound-engineering.html">
+        <span class="ref-card-icon">◎</span>
+        <div class="ref-card-title">Sound Engineering</div>
+        <div class="ref-card-desc">Live FOH, Behringer X32 / Midas M32, Soundcraft Ui/Si/Vi, in-ear monitoring</div>
+        <span class="ref-card-arrow">↗</span>
+      </a>
+    </div>
+
+    <!-- Info row -->
+    <div class="info-row">
+      <div class="info-card">
+        <div class="info-label">Contact</div>
+        <div class="info-value">
+          <a href="mailto:contact@olcrossley.uk">contact@olcrossley.uk</a>
+        </div>
+      </div>
+      <div class="info-card">
+        <div class="info-label">OpenPGP · <a href="otis-crossley.asc">Download .asc</a></div>
+        <div class="info-label">Fingerprint:</div>
+        <div class="pgp-fingerprint">6128 E053 45C1 D8A5 11D2<br>023D 4EA6 22C1 BF41 B7AE</div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <span>© 2026 Otis L. Crossley</span>
+  <span><a href="otis-crossley.asc">PGP Key</a> &nbsp;·&nbsp; MIT License</span>
+  <span><a href="mailto:contact@olcrossley.uk">contact@olcrossley.uk</a></span>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>

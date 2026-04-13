@@ -14,8 +14,10 @@
   --text:         #e2e2e2;
   --text2:        #888;
   --text3:        #4a4a4a;
-  --neon:         #00e5ff;
-  --neon2:        #00ff9d;
+/*  --neon:         #00e5ff;
+  --neon2:        #00ff9d; */
+  --neon:         #d26767;
+  --neon2:        #ff0000;
   --neon-glow:    rgba(0,229,255,0.13);
   --neon2-glow:   rgba(0,255,157,0.1);
   --font-display: "Archivo Black", Impact, 'Arial Narrow', sans-serif;
@@ -114,7 +116,7 @@ nav {
 }
 .nav-links a:hover,
 .nav-links a.active {
-  background: rgba(0,229,255,0.08);
+  background: rgba(255, 0, 0, 0.08);
   color: var(--neon);
 }
 
@@ -274,7 +276,7 @@ nav {
   user-select: none;
 }
 .chip:hover {
-  border-color: rgba(0,229,255,0.3);
+  border-color: rgba(255, 0, 0, 0.3);
   color: var(--neon);
   background: rgba(0,229,255,0.04);
 }
@@ -297,7 +299,7 @@ nav {
   border-radius: var(--radius);
   transition: border-color 0.25s;
 }
-.event:hover { border-color: rgba(0,229,255,0.18); }
+.event:hover { border-color: rgba(255, 0, 0, 0.18); }
 
 .event-year {
   font-size: 10px;
@@ -356,9 +358,9 @@ nav {
   pointer-events: none;
 }
 .ref-card:hover {
-  border-color: rgba(0,229,255,0.28);
+  border-color: rgba(255, 0, 0, 0.28);
   transform: translateY(-4px);
-  box-shadow: 0 24px 64px rgba(0,0,0,0.55), 0 0 0 1px rgba(0,229,255,0.08);
+  box-shadow: 0 24px 64px rgba(0,0,0,0.55), 0 0 0 1px rgba(255, 0, 0, 0.08);
 }
 .ref-card:hover::before { opacity: 1; }
 
@@ -517,7 +519,7 @@ nav {
 }
 .btn-primary:hover {
   background: #fff;
-  box-shadow: 0 0 40px rgba(0,229,255,0.35);
+  box-shadow: 0 0 40px rgba(255, 0, 0, 0.35);
   transform: translateY(-2px);
 }
 .btn-ghost {
@@ -526,7 +528,7 @@ nav {
   border: 1px solid var(--border2);
 }
 .btn-ghost:hover {
-  border-color: rgba(0,229,255,0.3);
+  border-color: rgba(255, 0, 0, 0.3);
   color: var(--neon);
   transform: translateY(-2px);
 }

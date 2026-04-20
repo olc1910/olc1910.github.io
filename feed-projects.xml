@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Projekte &amp; Updates – olcrossley.uk</title>
+    <link>https://olcrossley.uk</link>
+    <description>Neuigkeiten zu meinen Projekten</description>
+    <language>de</language>
+    <lastBuildDate>Mon, 20 Apr 2026 19:59:25 +0000</lastBuildDate>
+    <atom:link href="https://olcrossley.uk/feed-projects.xml" rel="self" type="application/rss+xml"/>
+  </channel>
+</rss>
